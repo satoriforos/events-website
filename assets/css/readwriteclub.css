@@ -1,0 +1,1139 @@
+h1, h2, h3, h4, h5, h6, div, p, td, th, input, button, textarea, dd, dt, li {
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+}
+p, dd, li, dt {
+	color: #333;
+}
+a {
+	color: #cc3633;
+	text-decoration: none;
+  -webkit-transition:.2s;-o-transition:.2s;-moz-transition:.2s;transition:.2s;
+}
+a:hover {
+	text-decoration: none;
+	-webkit-transition:.2s;-o-transition:.2s;-moz-transition:.2s;transition:.2s;
+}
+
+.button {
+	background-color: #ca3839;
+	border: 1px solid #ca3839;
+  -webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;
+	padding: 1.1rem 3.0rem;
+  font-weight: 600;
+	color: #fff;
+  text-align: center;
+}
+.button:hover {
+    color: #ffffff;
+    background-color: #eb2925;
+}
+.container {
+	max-width: 1100px;
+}
+.team-button:hover {
+	color: #fff;
+	background-color: #ca3839;
+	border: 2px solid #ca3839;
+}
+
+
+/* Navigation */
+nav {
+}
+nav #logo {
+	background-image: url(https://15809-presscdn-0-93-pagely.netdna-ssl.com/wp-content/themes/company-name/assets/images/logo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: block;
+	width: 130px;
+	height: 28px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+	list-style-type: none;
+	font-size: .8em;
+	font-weight: bold;
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 0 0 40px;
+}
+nav a {
+	color: #000;
+}
+nav li:not(.jointheclub) a {
+  display: inline-block;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 4px;
+  position: relative;
+}
+nav li.active:not(.jointheclub) a::after {
+  background: #ca3636;
+  content: '';
+  display: block;
+  height: 6px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+nav .jointheclub {
+  margin-left: 44px;
+}
+nav .jointheclub a {
+	background: #ca3839;
+	padding: 10px 25px;
+	color: #fff;
+	font-weight: bold;
+  -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
+	text-transform: uppercase;
+}
+.card {
+  min-height: 510px;
+  margin: 0 auto 25px;
+  position: relative;
+  max-width: 336px;
+}
+
+/* Header */
+header {
+	background-image: url(../images/backgrounds/Header_Image.jpg);
+	-moz-background-size:cover;background-size:cover;
+	height: 710px;
+  background-repeat: no-repeat;
+	text-align: center;
+	color: #fff;
+}
+header.events{
+  background-image:url(../images/backgrounds/CTA_JoinTheClub_Image.jpg)
+}
+header .container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+header h1 {
+	font-weight: 900;
+}
+header .hook {
+	margin: 50px 0;
+	font-size: 1.2em;
+	line-height: 1.8;
+}
+header .call-to-action a {
+	font-size: 1.8em;
+	padding: 18px 40px;
+	font-weight: bold;
+}
+
+/* Sections */
+section {
+	padding: 80px 0;
+}
+
+h2 {
+	font-weight: 900;
+	text-align: center;
+	font-size: 2.6em;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-weight: 900;
+}
+
+article .description {
+	text-align: center;
+	font-size: 2.2em;
+	margin-bottom: 1.5em;
+}
+
+.market-descriptions {
+	margin-top: 70px;
+}
+.market-description div.title {
+	font-size: 2.0em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.market-description div {
+	margin-bottom: 40px;
+}
+.iot-revolution-landscape {
+	padding-left: 80px;
+}
+.iot-revolution-landscape img {
+	width: 100%;
+	float: right;
+}
+
+.product-descriptions {
+	margin-top: 50px;
+	text-align: center;
+}
+.product-descriptions div {
+	/*
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-image: url(../images/red-line.svg);
+	*/
+}
+.product-description dd {
+	font-size: 2.8em;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.product-description dt {
+	font-weight: normal;
+}
+
+.product-description dd.example {
+	font-size: 1em;
+	margin-top: 20px;
+}
+
+.product-description dd.example a {
+	display: inline-block;
+}
+
+/* Call to action */
+section.call-to-action {
+	background-image: url(../images/backgrounds/CTA_JoinTheClub_Image.jpg);
+	-moz-background-size:cover;background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 60px;
+	color: #fff;
+}
+section.call-to-action .header {
+	font-size: 2.0em;
+}
+section.call-to-action .call-to-action {
+	display: inline-block;
+	font-size: 1.6em;
+}
+.impact {
+	font-weight: 900;
+}
+
+.club-members {
+
+}
+/* Social proof */
+.club-member {
+	text-align: center;
+	margin-bottom: 60px;
+
+	  float: none;
+	  margin-right: auto;
+	  margin-left: auto;
+}
+.club-member .photo {
+	margin: 0 auto;
+}
+.club-member img {
+	width: 140px;
+	height: 140px;
+  -webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;
+	border: 1px solid #fff;
+}
+.club-member dt {
+	font-weight: normal;
+	margin: 10px 0 5px 0;
+	padding: 0;
+	font-weight: bold;
+	color: #CA3839;
+}
+.club-member .title {
+	margin: 0 0 5px;
+}
+.club-member .company {}
+
+/* IoT Revolution Series Uplsell */
+.events-title{
+  font-weight: 900;
+  text-align: left;
+  font-size: 4em;
+}
+.events-title-single{
+    text-align: center;
+}
+.event .text-left{
+    text-align: center!important;
+}
+#grey-stats {
+  padding-top: 0;
+}
+#grey-stats .grey {
+  background: #f0f0f0;
+}
+#grey-stats .grey .row {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+#grey-stats .grey .row .col-md-4,
+#grey-stats .grey .row .col-md-12 {
+  padding-top: 29px;
+  padding-bottom: 40px;
+}
+#grey-stats .grey .row .description {
+  font-weight: 500;
+}
+#grey-stats .grey .row h2 {
+  color: #ca3839;
+  font-size: 2.6em !important;
+  margin-bottom: 5px;
+}
+#iot-revolutions-upsell {
+	color: #333;
+	background-color: #f0f0f0;
+	-moz-background-size:cover;background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.revolution .product-description dd {
+  font-size: 1.8em;
+  font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+#call-to-actopm{
+  background-image: url(../images/CTA_JoinTheClub_Image.jpg);
+  -moz-background-size:cover;background-size:cover;
+  background-position-y: -280px;
+}
+.sub-title{
+  text-align: center
+}
+.card-block{
+  padding: 25px 15px;
+}
+.card-block div {
+	margin: 4px 0px;
+}
+.card-block .learn-more {
+	margin-top: 7px;
+}
+.card-text a{
+  color: #CC3633;
+  text-decoration: none;
+  -webkit-transition:.2s;-o-transition:.2s;-moz-transition:.2s;transition:.2s;
+  font-size: 14px;
+  font-weight: 600;
+}
+.card-text a:hover{
+  color: #CC3633;
+}
+.card .card-text{
+ font-size: 14px;
+ line-height: 22px;
+}
+.team-button {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 19px;
+  border: 2px solid #eee;
+  -webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;
+  padding: 1.1rem 3.0rem;
+  font-weight: 600;
+  margin-left: 40px;
+}
+.team-button-container {
+	display: inline-block;
+	width: auto;
+}
+@media only screen and (max-width: 1150px) {
+	.team-button {
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 1050px) {
+	.team-button-container {
+		display: block;
+		margin: 0px auto;
+	}
+ 	.team-button {
+		display: block;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#join-the-team .header {
+		margin-bottom: 20px;
+		margin-right: 0px;
+	}
+
+	#join-the-team .header {
+		display: block;
+		width: 100%;
+	}
+	section#join-the-team {
+		text-align: center;
+	}
+}
+footer img {
+  padding: 12px;
+}
+.card-title a{
+    color: #333;
+}
+.call-to-action .statement {
+    font-size: 2em;
+}
+.date{
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+}
+.card-block .button {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 100px);
+}
+.card-block h4 {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #333;
+}
+.revolution .label{
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  color: #000;
+  background-color: #eee;
+  font-size: 2em;
+  line-height: 68px;
+  width: 75px;
+  height: 75px;
+  -webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;
+}
+.revolution .product-descriptions div{
+  background-image: none;
+}
+.revolution .product-descriptions{
+  text-align: left;
+}
+.revolution h4{
+  text-align: center;
+  padding-top: 45px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.revolution{
+  padding-top: 70px;
+}
+.revolution h2{
+  color: #353535;
+}
+#iot-revolutions-upsell h2, #iot-revolutions-upsell .description {
+	text-align: left;
+}
+#iot-revolutions-upsell .description {
+	font-size: 1em;
+	line-height: 1.6;
+}
+.btn{
+  background-color: #ca3839;
+  border: 1px solid #ca3839;
+  -webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;
+  padding: 1.1rem 3.0rem;
+  color: #fff;
+}
+
+.revolution-parts {
+	margin-top: 50px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 30px;
+}
+.revolution-parts .label {
+	padding-top: 10px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	color: #000;
+	background-color: #fff;
+	font-size: 2em;
+	width: 75px;
+	height: 75px;
+  -webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;
+}
+.revolution-parts .name {
+	text-transform: uppercase;
+	text-transform: uppercase;
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.revolution-parts .description {
+	margin-top: 10px;
+}
+
+.event-types {
+	margin-top: 60px;
+}
+.event-type {
+	height: 410px;
+}
+.event-types .title {
+	font-weight: bold;
+	font-size: 2em;
+}
+.event-types .title .brand {
+	text-transform: uppercase;
+	display: block;
+	font-size: 0.6em;
+}
+.event-types .frequency {
+	margin-top: 20px;
+	font-size: 0.9em;
+	line-height: 1.7;
+}
+.event-types .audience {
+	font-weight: bold;
+	font-style: oblique;
+	margin-top: 25px;
+	line-height: 1.7;
+}
+.event-types .size {
+	margin-top: 25px;
+	font-weight: bold;
+	font-style: oblique;
+}
+.fancybox-inner .col-md-8 img,
+.fancybox-inner .col-md-4 img{
+    width: 100%;
+    max-width: 660px;
+}
+.event-types .window-display {
+	margin-top: 25px;
+	font-weight: bold;
+	font-style: oblique;
+}
+.event-types .call-to-action {
+}
+.event-types .call-to-action a {
+	font-size: 1.2em;
+	display: inline-block;
+}
+
+#event-listing .call-to-action .statement {
+	font-size: 2em;
+}
+
+/* Purchase */
+#purchase h2 {
+	font-weight: normal;
+}
+
+#purchase .details {
+	text-align: center;
+	padding: 50px 50px 0px 50px;
+}
+.price-card {
+  -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
+	border: 1px solid #ccc;
+}
+.price-card h3 {
+	font-weight: 900;
+	font-size: 1.6em;
+	text-transform: uppercase;
+}
+.price-card .price {
+	margin-top: 15px;
+	color: #cc3633;
+	font-size: 4em;
+	font-weight: bold;
+}
+.price-card .price .currency {
+	margin: -10px;
+}
+.price-card .billing-frequency {
+	margin-top: 10px;
+}
+.price-card ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 30px;
+}
+.price-card ul li {
+	margin: 20px 0;
+}
+.price-card .details {
+	height: 720px;
+}
+#purchase .call-to-action {
+	text-align: center;
+	margin-bottom: 50px;
+}
+#purchase .call-to-action a {
+	font-size: 1.2em;
+	display: inline-block;
+}
+
+/* Sponsors */
+#sponsors {
+	background-color: #eee;
+}
+#sponsors .description {
+	font-size: 1em;
+	margin-top: 50px;
+}
+.sponsors-containers {
+	vertical-align: top;
+	text-align: center;
+}
+.sponsors-containers div {
+	width: 115px;
+	height: 40px;
+	display: inline-block;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	-moz-background-size:contain;background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 10px 45px 0;
+}
+.sponsors-containers div + div {
+  margin-top: 50px;
+}
+#cisco { background-image: url(https://v.fastcdn.co/t/8df84021/46746e2c/1506707102-18118366-96x51x96x51x0x0-Cisco-logo.svg.png); }
+#samsung { background-image: url(https://v.fastcdn.co/t/8df84021/46746e2c/1506707103-18188201-148x28x148x148x0x60-samsung-group-vector.png); }
+#ge { background-image: url(https://v.fastcdn.co/t/8df84021/46746e2c/1506707104-18117406-53x53-General-Electric-log.png); }
+#ibm { background-image: url(https://v.fastcdn.co/t/8df84021/46746e2c/1506707104-18117476-72x29-2000px-IBM-logo.svg.png); }
+#ups { background-image: url(https://v.fastcdn.co/t/8df84021/46746e2c/1506707105-18419836-44x55-United-Parcel-Servic.png); }
+#amazon { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707128-21447481-113x40-amazon-logo.png); }
+#microsoft { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707109-21380971-148x28x148x32x0x2-1000px-Microsoft-log.png); }
+#intel { background-image: url(https://v.fastcdn.co/t/8df84021/46746e2c/1506707124-21395416-72x48-intel-logo.png); }
+#att { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707123-21395411-134x55x192x191x31x66-ATTGlobeATT.png); }
+#westerndigital { background-image: url(https://v.fastcdn.co/t/8df84021/46746e2c/1506707107-18137946-133x48-Western-Digital-logo.png); }
+
+#nokia { background-image: url(https://v.fastcdn.co/t/8df84021/46746e2c/1506707107-18118256-112x20-Nokia-wordmark.svg.png); }
+#honeywell { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707108-18188376-124x23-2000px-Honeywell-log.png); }
+#verizon { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707125-21447496-101x22-vzlogo-lg.png); }
+#underarmor { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707133-21447726-100x58-underarmour-red.png); }
+#nxp { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707127-21447491-108x39-NXP-Semiconductors-L.png); }
+#hp { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707127-21447486-58x58-HP-Logo-1.png); }
+#huwei { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707129-21447471-61x61-1200px-Huawei.png); }
+#nvidia { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707131-21447461-66x51-1200px-Nvidia-image-.png); }
+#qualcomm { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707126-21447501-154x44x200x81x21x19-qualcomm-qcom-logo.png); }
+#sap { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707131-21447476-87x43-2000px-SAP-Logo.png); }
+
+#google { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707132-21447731-101x33-google-logo-lg.png); }
+#seimens { background-image: url(http://v.fastcdn.co/t/8df84021/46746e2c/1506707130-21447466-122x29-2000px-Siemens-logo.png); }
+
+
+/* Footer */
+footer {
+	padding: 50px 0;
+	font-size: 0.9em;
+	text-align: center;
+	color: #fff;
+	background-color: #333;
+}
+#newsletter{
+  background: #f0f0f0;
+}
+
+.billing-type-switch {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	vertical-align: center;
+}
+.billing-type-switch div {
+	display: inline-block;
+}
+.billing-type-switch .active {
+	color: #ca3839;
+}
+#billed-monthly {
+	padding-right: 25px;
+}
+#billed-annually {
+	padding-left: 25px;
+}
+
+#billing-toggle {
+	background-image: url(../images/switch.svg);
+	-moz-background-size:contain;background-size:contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 80px;
+  vertical-align: bottom;
+}
+#billing-toggle a {
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	display: inline-block;
+}
+#session-1{
+  background: #f0f0f0;
+}
+.break-event{
+  background-image: url(../images/bridge1.png);
+  min-height: 350px;
+  -moz-background-size:cover;background-size:cover;
+  background-repeat: no-repeat;
+}
+.break-event .col-md-12{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: white;
+  top: 40%;
+}
+#newsletter input{
+  height: 60px;
+  border: none;
+  width: 100%;
+  float: right;
+  padding: 20px;
+  max-width: 400px;
+  -webkit-border-radius:9px;-moz-border-radius:9px;border-radius:9px;
+}
+#session-1 h4,
+#session-2 h4{
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#session-1 h1,
+#session-2 h1{
+  font-weight: 800;
+  color: #333;
+  font-size: 30px;
+}
+
+#session-1  .col-md-12 p,
+#session-2  .col-md-12 p{
+  margin-top: 55px;
+  margin-bottom: 45px;
+}
+#session-1  h3,
+#session-2  h3{
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 55px;
+  text-transform: uppercase;
+}
+.session-title{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 55px;
+}
+#newsletter .sub-title{
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1050px) {
+  section#call-to-action {
+    text-align: center;
+  }
+  section#call-to-action .container {
+    -webkit-box-orient:vertical;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;
+  }
+  section#call-to-action .call-to-action {
+    margin: 40px 0 16px;
+  }
+  section#call-to-action .button {
+    font-size: 16px;
+    padding: 1.1rem 1rem;
+  }
+  section#call-to-action .header {
+    -webkit-box-pack:center !important;-webkit-justify-content:center !important;-moz-box-pack:center !important;-ms-flex-pack:center !important;justify-content:center !important;
+  }
+  section#call-to-action .header > span {
+    width: 100%;
+  }
+  section#call-to-action .header > a {
+    margin: 32px 8px 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .price-card .details {
+  	height: 600px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  p.sub-title {
+    text-align: left;
+    margin-bottom: -25px;
+  }
+  .iot-revolution-landscape {
+    padding-left: 10px;
+  }
+  li.jointheclub {
+      /* display: none; */
+  }
+  nav ul li {
+    margin-left: 30px;
+  }
+  header {
+    padding-left: 15px;
+  }
+  .events-title {
+    font-size: 2.5em;
+  }
+  .revolution .product-descriptions {
+    text-align: center;
+  }
+  .revolution .product-descriptions .col-md-4 + .col-md-4 {
+    padding-top: 24px;
+  }
+  #session-1 .photo,
+  #session-2 .photo {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  #newsletter input{
+    float: none;
+  }
+  #newsletter .row div{
+    text-align: center
+  }
+  #newsletter .row div a{
+    margin-top: 20px;
+  }
+  .price-card {
+    -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  h2 {
+   font-size: 2em;
+  }
+  #grey-stats .grey .row .col-md-4 + .col-md-4 {
+    padding-top: 0;
+  }
+  #billed-annually {
+    padding-left: 0;
+    font-size: 14px;
+  }
+  #billed-monthly {
+    padding-right: 0;
+    font-size: 14px;
+  }
+  .price-card .details {
+    height: auto;
+  }
+  #iot-revolutions-upsell h2,
+  #iot-revolutions-upsell .description {
+    text-align: center;
+  }
+  .event-types {
+    text-align: center;
+  }
+  .event-types > .col-md-4 + .col-md-4 {
+    margin-top: 64px;
+  }
+  .event-type {
+    height: auto;
+    margin-bottom: 24px;
+    padding: 0 24px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .product-descriptions > div + div {
+    margin-top: 40px;
+  }
+  li.jointheclub {
+  	font-size: 0.7em;
+  	margin-left: 20px;
+  }
+  nav ul li {
+    margin-left: 20px;
+  }
+
+	.sub-title{
+	  text-align: center
+	}
+}
+
+@media only screen and (max-width: 430px) {
+  li.jointheclub {
+  	margin-left: 4px;
+  }
+  nav ul li {
+    margin-left: 4px;
+  }
+  nav li:not(.jointheclub) a {
+  	padding: 0px 4px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  li.jointheclub {
+  	margin-left: 0px;
+  }
+  nav ul li {
+    margin-left: 0px;
+  }
+  nav ul li a {
+  	font-size: 0.8em;
+  }
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f9bbba;
+  -webkit-transition:.4s;-o-transition:.4s;-moz-transition:.4s;transition:.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #cc3633;
+  -webkit-transition:.4s;-o-transition:.4s;-moz-transition:.4s;transition:.4s;
+}
+
+input:checked + .slider {
+  background-color: #f9bbba;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow:0 0 1px #2196f3;-moz-box-shadow:0 0 1px #2196f3;box-shadow:0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  -webkit-border-radius:34px;-moz-border-radius:34px;border-radius:34px;
+}
+
+.slider.round:before {
+  -webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  margin: auto;
+  background:black;
+        left: 0;
+}
+.mySlides{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.events .slideshow-container .active {
+  background-color: black;
+}
+#social-proof.hosts .club-member:nth-child(1){
+    margin-right: 0px;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+     0%   {opacity: 0.5} 
+    50% {opacity: 1} 
+    100%  {opacity:0.5}  
+}
+
+@keyframes fade {
+     0%   {opacity: 0.5} 
+    50% {opacity: 1} 
+    100%  {opacity:0.5}  
+}
+header.events{
+    position: relative;
+    width: 100%;
+}
+.slideshow-container{
+    position: absolute;
+    height: 100%;
+    width:100%;
+}
+
+.billing-type-switch {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	vertical-align: center;
+}
+.billing-type-switch div {
+	display: inline-block;
+}
+.billing-type-switch .active {
+	color: #CA3839;
+}
+#billed-monthly {
+	padding-right: 25px;
+}
+#billed-annually {
+	padding-left: 25px;
+}
+#value-proposition{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#billing-toggle {
+	background-image: url(../images/switch.svg);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 80px;
+}
+#billing-toggle a {
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+
+.social-media-links li a {
+	font-size: 20px;
+	line-height: 45px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 100%; 
+	font-size: 20px;
+	margin-top: 15px;
+	transition: all 0.3s ease-in-out;
+	color: white;
+	border: solid 2px white;
+	background: transparent; 
+}
+.social-media-links {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.social-media-links li a:hover {
+	color: #CC3633;
+	border: solid 2px white;
+	background: white; 
+}
+#copyright {
+	margin-top: 50px;
+}
+
+
+#slide1 { background-image:url('../images/headerslideshow/1.jpg'); height:100%; }
+#slide2 { background-image:url('../images/headerslideshow/2.jpg'); height:100%; }
+#slide3 { background-image:url('../images/headerslideshow/3.jpg'); height:100%; }
+#slide4 { background-image:url('../images/headerslideshow/4.jpg'); height:100%; }
+#slide5 { background-image:url('../images/headerslideshow/5.jpg'); height:100%; }
+#slide6 { background-image:url('../images/headerslideshow/6.jpg'); height:100%; }
+#slide7 { background-image:url('../images/headerslideshow/7.jpg'); height:100%; }
+#slide8 { background-image:url('../images/headerslideshow/8.jpg'); height:100%; }
+
+#slideshow-dots {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.main-title {
+	text-transform: uppercase;
+}
+
+#grey-stats .description {
+	text-transform: uppercase;
+}
+a:hover{
+    color:#ca3839;
+}
+
+#grey-stats h2 {
+	text-transform: uppercase;
+}
+
+#purchase #monthly {
+	display: none;
+}
+
+#location {
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	font-size: 2em;
+}
+#location.sanfrancisco { background-image: url('../images/locations/sanfrancisco.png'); }
+
+#upcoming-events {
+	border-top: 1px solid #ccc;
+}
+
+.payment-methods {
+	margin-top: 50px;
+}
+.payment-methods img {
+	max-width: 80%;
+}
+body#event-listing h1 {
+	word-spacing: 100vw;
+}
+.acronym {
+	text-transform: none !important;
+}
+.photo .avatar-img{
+    width: 140px;
+    margin: 0px auto;
+    height: 140px;
+    background: #cccccc;
+    text-align: center;
+    color: white;
+    border-radius: 100%;
+}
+.photo .avatar-img i{
+    vertical-align: middle;
+    font-size: 64px;
+    padding-top: 30px;
+}
